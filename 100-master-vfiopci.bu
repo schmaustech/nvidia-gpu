@@ -11,7 +11,7 @@ storage:
     overwrite: true
     contents:
       inline: |
-        options vfio-pci ids=10de:115e
+        options vfio-pci ids=10de:13f2
   - path: /etc/modules-load.d/vfio-pci.conf 
     mode: 0644
     overwrite: true

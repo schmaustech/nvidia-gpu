@@ -3,9 +3,16 @@ kind: HyperConverged
 metadata:
   name: kubevirt-hyperconverged
   namespace: openshift-cnv
+...
 spec:
+  featureGates:
+    sriovLiveMigration: true
+    withHostPassthroughCPU: false
+    GPU: true
+...
   permittedHostDevices: 
     pciHostDevices: 
     - pciDeviceSelector: "10DE:13F2" 
       resourceName: "nvidia.com/Tesla_M60" 
       externalResourceProvider: true
+...

@@ -6,6 +6,6 @@ metadata:
 spec:
   permittedHostDevices: 
     pciHostDevices: 
-    - pciDeviceSelector: "10de:13f2" 
+    - pciDeviceSelector: "10DE:13F2" 
       resourceName: "nvidia.com/Tesla_M60" 
       externalResourceProvider: true

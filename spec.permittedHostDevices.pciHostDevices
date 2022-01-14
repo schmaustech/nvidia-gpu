@@ -7,5 +7,5 @@ spec:
   permittedHostDevices: 
     pciHostDevices: 
     - pciDeviceSelector: "10de:13f2" 
-      resourceName: "nvidia.com/TU104GL_Tesla_T4" 
+      resourceName: "nvidia.com/Tesla_M60" 
       externalResourceProvider: true
